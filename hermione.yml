@@ -1,0 +1,10 @@
+---
+name: "Sensibility: A set of sensible configuration files"
+author: "The Hermione Collective"
+mappings:
+  - i: ssh_config
+    o: "{{HOME}}/.ssh/config"
+  - i: tmux.conf
+    o: "{{HOME}}/.tmux.conf"
+  - i: gemrc
+    o: "{{HOME}}/.gemrc"
